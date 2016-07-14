@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stevenmeow.template.Activity_CheckOnWorkAttrndance">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:id="@+id/cowall"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--<android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/view0"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorPrimary">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="12dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="EE2003"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:layout_marginTop="20sp"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="绗簩澶栬锛堟棩璇級I"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="鍏ㄥ嫟"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/view1"
+                    android:layout_marginTop="15dp"
+
+                    app:cardBackgroundColor="#ebf6f7">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="12dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="GE0071"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:layout_marginTop="20sp"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="姣涙辰涓滄€濇兂涓庝腑鍥界壒鑹茬ぞ浼氫富涔夌悊璁轰綋绯绘璁?
+                            android:textSize="18sp"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10sp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="鍏ㄥ嫟"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

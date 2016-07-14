@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/personal"
+            android:title="个人信息" />
+        <item
+            android:id="@+id/TimeTable"
+            android:title="考试时间" />
+        <item
+            android:id="@+id/Check"
+            android:title="考勤信息" />
+        <item
+            android:id="@+id/schedule"
+            android:title="课程表" />
+        <item
+            android:id="@+id/Grade"
+            android:title="成绩查询" />
+        <item
+            android:id="@+id/History"
+            android:title="奖惩历史" />
+        <item
+            android:id="@+id/NewClass"
+            android:title="开设课程"/>
+        <item
+            android:id="@+id/Violation"
+            android:title="违规查询" />
+
+    </group>
+</menu>

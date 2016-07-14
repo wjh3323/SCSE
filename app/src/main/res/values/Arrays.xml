@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week">
+        <item>必修课</item>
+        <item>艺术限选课</item>
+        <item>选修课</item>
+
+    </string-array>
+
+</resources>

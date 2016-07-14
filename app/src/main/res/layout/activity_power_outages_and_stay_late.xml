@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stevenmeow.template.Activity_powerOutagesAndStayLate">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2" >
+
+            <LinearLayout
+                android:id="@+id/poasl"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--<android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/view1"
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="#ebf6f7">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="12dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2014学年第2学期"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:layout_marginTop="20sp"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="停电日期：2015-04-27  宿舍：M2509"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="停电次数：第1次  停电天数：1天"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="原因：超时开电脑"
+                            android:textSize="20sp"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10sp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="主要责任人"
+                            android:textSize="18sp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>-->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
